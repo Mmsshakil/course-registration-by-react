@@ -21,13 +21,20 @@ function App() {
       return;
     }
 
-    setBookmarks(newBookmarks);
     handleCredit(newCredit);
     handlePrice(newPrice);
+    handleRemaining(newCredit);
+    setBookmarks(newBookmarks);
+
   }
 
   const handleCredit = (time) => {
     const newCredit = credit + time;
+    if (newCredit >= 20) {
+      toast.warn('More than 20hr');
+      return;
+    }
+
     setCredit(newCredit);
   }
 
@@ -37,13 +44,26 @@ function App() {
     setPrice(newPrice);
   }
 
+
+  const handleRemaining = time => {
+    const newRemaining = remaining - time;
+    if (newRemaining < 0) {
+      toast.warn('Less than 0');
+      return;
+    }
+    setRemaining(newRemaining);
+
+  }
+
+
+
   return (
     <>
       <div className='md:max-w-7xl md:mx-auto my-4 md:my-12'>
         <h1 className='text-3xl font-bold text-center mb-4 md:mb-8'>Course Registration</h1>
         <div className="flex flex-col lg:flex-row gap-6">
-          <Cards className="w-2/3" handleAddToBookmark={handleAddToBookmark} handleCredit={handleCredit} />
-          <Bookmarks className="w-1/3" bookmarks={bookmarks} credit={credit} price={price} />
+          <Cards className="w-2/3" handleAddToBookmark={handleAddToBookmark} handleCredit={handleCredit} handleRemaining={handleRemaining} />
+          <Bookmarks className="w-1/3" bookmarks={bookmarks} credit={credit} price={price} remaining={remaining} />
         </div>
       </div>
       <ToastContainer />
