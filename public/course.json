@@ -1,5 +1,6 @@
 [
   {
+    "id": 1,
     "course_name": "Advanced C Programming",
     "credit": 3,
     "price": 75,
@@ -7,6 +8,7 @@
     "image": "http://surl.li/lebwz"
   },
   {
+    "id": 2,
     "course_name": "Mastering Algorithms",
     "credit": 4,
     "price": 120,
@@ -14,6 +16,7 @@
     "image": "http://surl.li/lebww"
   },
   {
+    "id": 3,
     "course_name": "C++ for Data Structures and Algorithms",
     "credit": 3,
     "price": 90,
@@ -21,6 +24,7 @@
     "image": "http://surl.li/lebwt"
   },
   {
+    "id": 4,
     "course_name": "Advanced Data Structures and Design",
     "credit": 4,
     "price": 140,
@@ -28,6 +32,7 @@
     "image": "http://surl.li/lebwp"
   },
   {
+    "id": 5,
     "course_name": "Advanced Python Programming",
     "credit": 3,
     "price": 100,
@@ -35,6 +40,7 @@
     "image": "http://surl.li/lebwl"
   },
   {
+    "id": 6,
     "course_name": "Agile Software Development",
     "credit": 4,
     "price": 180,
@@ -42,6 +48,7 @@
     "image": "http://surl.li/lebwg"
   },
   {
+    "id": 7,
     "course_name": "Cloud Computing with AWS",
     "credit": 4,
     "price": 250,
@@ -49,6 +56,7 @@
     "image": "http://surl.li/lebwd"
   },
   {
+    "id": 8,
     "course_name": "Advanced Database Management with MySQL",
     "credit": 3,
     "price": 110,
@@ -56,6 +64,7 @@
     "image": "http://surl.li/lebwa"
   },
   {
+    "id": 9,
     "course_name": "Advanced Problem Solving Strategies",
     "credit": 2,
     "price": 50,

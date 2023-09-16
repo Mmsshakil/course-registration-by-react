@@ -1,6 +1,7 @@
 import PropTypes from 'prop-types';
 
 const Bookmark = ({ bookmark }) => {
+    console.log(bookmark);
 
     const { course_name } = bookmark;
 
