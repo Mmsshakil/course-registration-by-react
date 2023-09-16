@@ -1,0 +1,65 @@
+[
+  {
+    "course_name": "Advanced C Programming",
+    "credit": 3,
+    "price": 75,
+    "course_details": "This advanced course delves deeper into C programming, covering advanced topics and practical applications.",
+    "image": "http://surl.li/lebwz"
+  },
+  {
+    "course_name": "Mastering Algorithms",
+    "credit": 4,
+    "price": 120,
+    "course_details": "Dive deep into the world of algorithms, mastering their design principles and advanced implementations.",
+    "image": "http://surl.li/lebww"
+  },
+  {
+    "course_name": "C++ for Data Structures and Algorithms",
+    "credit": 3,
+    "price": 90,
+    "course_details": "Learn C++ with a focus on its applications in data structures and algorithms.",
+    "image": "http://surl.li/lebwt"
+  },
+  {
+    "course_name": "Advanced Data Structures and Design",
+    "credit": 4,
+    "price": 140,
+    "course_details": "Explore advanced data structures and their design principles in depth.",
+    "image": "http://surl.li/lebwp"
+  },
+  {
+    "course_name": "Advanced Python Programming",
+    "credit": 3,
+    "price": 100,
+    "course_details": "Take your Python skills to the next level with advanced programming concepts.",
+    "image": "http://surl.li/lebwl"
+  },
+  {
+    "course_name": "Agile Software Development",
+    "credit": 4,
+    "price": 180,
+    "course_details": "Dive into Agile methodologies and advanced software engineering concepts.",
+    "image": "http://surl.li/lebwg"
+  },
+  {
+    "course_name": "Cloud Computing with AWS",
+    "credit": 4,
+    "price": 250,
+    "course_details": "Master AWS and cloud computing to build scalable and reliable systems.",
+    "image": "http://surl.li/lebwd"
+  },
+  {
+    "course_name": "Advanced Database Management with MySQL",
+    "credit": 3,
+    "price": 110,
+    "course_details": "Explore advanced database systems and optimization techniques using MySQL.",
+    "image": "http://surl.li/lebwa"
+  },
+  {
+    "course_name": "Advanced Problem Solving Strategies",
+    "credit": 2,
+    "price": 50,
+    "course_details": "Sharpen your problem-solving skills with advanced strategies and techniques.",
+    "image": "http://surl.li/lebvs"
+  }
+]
