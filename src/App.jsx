@@ -21,6 +21,7 @@ function App() {
     setCredit(newCredit);
   }
 
+
   const handlePrice = taka => {
     const newPrice = price + taka;
     setPrice(newPrice);

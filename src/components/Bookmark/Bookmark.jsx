@@ -6,9 +6,9 @@ const Bookmark = ({ bookmark }) => {
 
     return (
         <div>
-            <ol className="text-[#1c1b1b99] leading-7 ">
+            
                 <li>{course_name}</li>
-            </ol>
+           
         </div>
     );
 };
