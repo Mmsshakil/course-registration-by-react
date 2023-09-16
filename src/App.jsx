@@ -30,8 +30,8 @@ function App() {
 
   const handleCredit = (time) => {
     const newCredit = credit + time;
-    if (newCredit >= 20) {
-      toast.warn('More than 20hr');
+    if (newCredit > 20) {
+      toast.warn('Total credit more than 20 hour !');
       return;
     }
 
@@ -48,9 +48,9 @@ function App() {
   const handleRemaining = time => {
     const newRemaining = remaining - time;
     if (newRemaining < 0) {
-      toast.warn('Less than 0');
       return;
     }
+    
     setRemaining(newRemaining);
 
   }
