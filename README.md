@@ -4,7 +4,7 @@
 3. The total credit is fixed, and if you choose more than the total credit, it will provide a warning. 
 
 
-# Discuss how I managed the state in my assignment project:
+# How I managed the state in my assignment project:
 1. First I created a JSON dataset,
 2. I display all data by cards,
 3. Make responsive for Laptop, Tab and Mobile,
